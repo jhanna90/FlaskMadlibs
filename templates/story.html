@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content%}
+<h1>Your Story!</h1>
+<p>{{ result }}</p>
+<button id="newStory" class="makeNewStory">Generate New Story!</button>
+<script type="text/javascript">
+    document.getElementById("newStory").onclick = function () {
+        location.href = "http://127.0.0.1:5000/";
+    };
+</script>
+{% endblock %}

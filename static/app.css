@@ -1,0 +1,48 @@
+body {
+    padding: 10px;
+    margin: 10px;
+    background-color: #c6a6db;
+}
+
+h1 {
+    font-family: monospace, sans-serif;
+    font-size: 75px;
+    text-align: center;
+}
+
+p {
+    font-family: monospace, sans-serif;
+    font-size: 30px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-family: monospace, sans-serif;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+#newStory {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-family: monospace, sans-serif;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+#prompt {
+    text-align: center;
+    font-family: monospace, sans-serif;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.textbox {
+    margin-left: 5px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    height: 25px;
+}
